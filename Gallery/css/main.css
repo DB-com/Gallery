@@ -1,0 +1,98 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+	background-color: #efefef;
+	font-family: Courier; 
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+.photo{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	background-position: center;
+	background-size: cover;
+}
+
+.photo:hover {
+	transform: rotate(6deg) scale(1.07);
+	transition: all 2.5s ease;
+}
+
+h1 : hover {
+	font-size: 70px;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	font-family: Courier;
+}
+
+.photo1 {
+	background-image: url(../img/img1.jpg);}
+.photo2 {
+	background-image: url(../img/img2.jpg);}
+.photo3 {
+	background-image: url(../img/img3.jpg);}
+.photo4 {
+	background-image: url(../img/img4.jpeg);}
+.photo5 {
+	background-image: url(../img/img5.jpg);}
+.photo6 {
+	background-image: url(../img/img6.jpg);}
+.photo7 {
+	background-image: url(../img/img7.jpg);}
+.photo8 {
+	background-image: url(../img/img8.jpg);}
+.photo9 {
+	background-image: url(../img/img9.jpg);}
+.photo10 {
+	background-image: url(../img/img10.jpg);}
+.photo11 {
+	background-image: url(../img/img11.jpg);}
+.photo12 {
+	background-image: url(../img/img12.jpg);}
+
+.text:hover {
+	font-size: 55px;
+}
+
+button {
+	font-size: 40px;
+	font-family: Courier;
+}
+
+header {
+	width: 100%;
+	height: 30%;
+	background-color: #1f3575
+}
+
+footer {
+	width: 100%;
+	height: 30%;
+	background-color: #1f3575
+}
+
+h3 {
+	font-family: Courier;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
